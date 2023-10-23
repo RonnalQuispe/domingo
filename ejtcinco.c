@@ -20,6 +20,8 @@ int main() {
         primerDigito2 /= 10;
     }
 
-    
+        // Calcular el producto mutuo de los primeros dígitos
+    productoMutuo = primerDigito1 * primerDigito2;
+
     return 0;
 }

@@ -22,6 +22,7 @@ int main() {
 
         // Calcular el producto mutuo de los primeros dígitos
     productoMutuo = primerDigito1 * primerDigito2;
-
+// Mostrar el resultado
+    printf("El producto mutuo del primer dígito de cada número es: %d\n",productoMutuo);
     return 0;
 }

@@ -14,6 +14,8 @@ int main() {
         numero /= 10;  // Eliminar el ultimo digito del numero
     }
 
+    // Mostrar el mayor dígito encontrado
+    printf("El mayor digito del numero ingresado es: %d\n", mayor);
     
    
 

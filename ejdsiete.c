@@ -11,6 +11,8 @@ int main(void){
     smul5 = y * (y + 1) * 5; // Suma de los primeros y multiplos de 5
     printf("El promedio de los primeros %d múltiplos de 2 es: %.2f\n", x, prom2);
     printf("El promedio de los primeros %d múltiplos de 5 es: %.2f\n", y, prom5);
+    if (prom2 > prom5)
+        printf("El promedio de los primeros %d multiplos de 2 es mayor que los primeros %d múltiplos de 5.\n", x, y);
     return 0;// Finaliza el programa devolviendo 0 desde la funcion principal
 }
 
